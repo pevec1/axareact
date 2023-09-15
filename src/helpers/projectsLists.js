@@ -112,7 +112,7 @@ const projects = [
     title: "Igra",
     img: slide16,
     skills: "",
-    link: "",
+    link: "https://pevec1.github.io/js1-diplom/",
   },
   {
     title: "Calculator",

@@ -6,6 +6,7 @@ const Works = () => {
     <main>
       <section className="slider2">
         <div className="container-slider">
+            ВСЕ МОИ РАБОТЫ
           <div className="row justify-content-center">
             <div className="carousel-indicators">
               <div className="carousel-inner">
