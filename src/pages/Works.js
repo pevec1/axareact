@@ -6,9 +6,9 @@ const Works = () => {
     <main>
       <section className="slider2">
         <div className="container-slider">
-            ВСЕ МОИ РАБОТЫ
           <div className="row justify-content-center">
             <div className="carousel-indicators">
+            ВСЕ МОИ РАБОТЫ
               <div className="carousel-inner">
                 {projects.map((project, index) => {
                   return (

@@ -513,6 +513,12 @@ footer {
   background-color: #60e1cb;
 }
 
+.carousel-indicators{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:28px;
+}
 .carousel-item{
   display: flex;
   flex-direction: column;
