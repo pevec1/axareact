@@ -15,7 +15,7 @@ import Aboutus from "./pages/Aboutus";
 
 function App() {
   const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint1 = 601;
+  const breakpoint1 = 320;
   const breakpoint2 = 1000;
   React.useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth);
