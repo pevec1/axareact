@@ -23,7 +23,8 @@ const Header = () => {
                 frontend разработчиком.
               </p>
               <div>
-                <br/><a href="tel:+79652758777" rel="nofollow" className="btn">
+                <br />
+                <a href="tel:+79652758777" rel="nofollow" className="btn">
                   позвоните мне
                 </a>
                 <a
@@ -36,7 +37,10 @@ const Header = () => {
                 <a className="btn" target="_blank" href="https://t.me/luksik1">
                   <img src={telegram} />
                 </a>
-                <div><br/><br/></div>
+                <div>
+                  <br />
+                  <br />
+                </div>
                 <div>
                   <a
                     href="https://docs.google.com/document/d/1xiDcd95pOp3mgW5OHKy7_e6yKXP-BdZROFhgWw11NUo/edit?usp=sharing"
@@ -56,6 +60,9 @@ const Header = () => {
 
                   <img className="circles" src={Group56} alt="" />
 
+                  <a className="btn" href="/reacts">
+                    Портфолио React
+                  </a>
                   <a className="btn" href="/works">
                     Портфолио
                   </a>
@@ -71,7 +78,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </section>
     </header>
   );

@@ -10,6 +10,7 @@ import Footer from "./pages/Footer";
 import Navmobile from "./components/navmobile/Navmobile";
 import Header from "./components/header/Header";
 import Works from "./pages/Works";
+import Reacts from "./pages/Reacts";
 import Contacts from "./pages/Contacts";
 import Aboutus from "./pages/Aboutus";
 
@@ -39,8 +40,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
+            <Route path="/reacts" element={<Reacts />} />
             <Route path="/works" element={<Works />} />
-            <Route path="/contacts" element={<Home />} />
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </Router>
         <Footer />
@@ -55,8 +57,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
+            <Route path="/reacts" element={<Reacts />} />
             <Route path="/works" element={<Works />} />
-            <Route path="/contacts" element={<Home />} />
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </Router>
         <Footer />
