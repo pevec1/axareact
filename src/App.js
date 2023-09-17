@@ -32,7 +32,7 @@ function App() {
       <div className="App">
         <Router>
           <div className="container">
-            <div className="row">
+            <div className="column">
               <Navbar />
             </div>
           </div>

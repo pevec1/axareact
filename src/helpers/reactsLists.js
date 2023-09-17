@@ -6,7 +6,7 @@ import slider003 from "./../styles/images/slider003.png";
 const reacts = [
   {
     title: "Filter-ex",
-    img: slider003,
+    img: slider001,
     skills: "",
     link: "https://pevec1.github.io/filter-ex/",
   },
@@ -18,7 +18,7 @@ const reacts = [
   },
   {
     title: "Calendar",
-    img: slider001,
+    img: slider003,
     skills: "",
     link: "https://react.axacode.ru",
   },

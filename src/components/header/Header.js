@@ -5,14 +5,16 @@ import logo from "./../../styles/ima/logo.png";
 import analyse1 from "./../../styles/img/analyse1.png";
 import whatsapp from "./whatsapp.png";
 import telegram from "./telegram.png";
+import Rotate from "./scripts_rotate";
+
 
 const Header = () => {
   return (
     <header>
       <section>
         <div className="container-offer">
-          <div className="row">
-            <div className="business-offer col-12 col-md-6 col-xl-4">
+          <div className="column">
+            <div className="business-offer col-12 col-md-5 col-xl-5">
               <h1>
                 Я помогу сделать Вам Ваш
                 <span style={{ color: "#7bc0e3" }}>веб-сайт</span>
@@ -22,8 +24,11 @@ const Header = () => {
                 делаю с нуля как маленькие, так и крупные сайты. Я ищу работу
                 frontend разработчиком.
               </p>
-              <div>
-                <br />
+            </div>
+          </div>
+          <div className="row">
+            <div className="column" style={{justifyContent:'flex-start'}}>
+              <div className="row">
                 <a href="tel:+79652758777" rel="nofollow" className="btn">
                   позвоните мне
                 </a>
@@ -37,45 +42,40 @@ const Header = () => {
                 <a className="btn" target="_blank" href="https://t.me/luksik1">
                   <img src={telegram} />
                 </a>
-                <div>
-                  <br />
-                  <br />
-                </div>
-                <div>
-                  <a
-                    href="https://docs.google.com/document/d/1xiDcd95pOp3mgW5OHKy7_e6yKXP-BdZROFhgWw11NUo/edit?usp=sharing"
-                    className="btn"
-                  >
-                    мое резюме
-                  </a>
-                  <a
-                    className="btn"
-                    href="mailto:pevec1@yandex.ru?subject=вопрос"
-                  >
-                    email
-                  </a>
-                  <a className="btn-disabled" href="#head">
-                    Контакты
-                  </a>
+              </div>
 
-                  <img className="circles" src={Group56} alt="" />
+              <div className="row">
+                <a
+                  href="https://docs.google.com/document/d/1xiDcd95pOp3mgW5OHKy7_e6yKXP-BdZROFhgWw11NUo/edit?usp=sharing"
+                  className="btn"
+                >
+                  мое резюме
+                </a>
+                <a
+                  className="btn"
+                  href="mailto:pevec1@yandex.ru?subject=вопрос"
+                >
+                  email
+                </a>
+                <a className="btn-disabled" href="#head">
+                  Контакты
+                </a>
 
-                  <a className="btn" href="/reacts">
-                    Портфолио React
-                  </a>
-                  <a className="btn" href="/works">
-                    Портфолио
-                  </a>
-                </div>
+                <img className="circles" src={Group56} alt="" />
               </div>
-              <div className="col-12 col-md-2 col-xl-2">
-                <canvas id="canvas" className="canvas">
-                  <img id="logos" className="img-rotate" src={logo} alt="" />
-                </canvas>
+
+              <div className="row">
+                <a className="btn" href="/reacts">
+                  Портфолио React
+                </a>
+                <a className="btn" href="/works">
+                  Портфолио
+                </a>
               </div>
-              <div className="business-offer col-12 col-md-5 col-xl-5">
-                <img className="analyse" src={analyse1} alt="" />
-              </div>
+            </div>
+            <Rotate />
+            <div className="business-offer col-12 col-md-5 col-xl-5">
+              <img className="analyse" src={analyse1} alt="" />
             </div>
           </div>
         </div>
