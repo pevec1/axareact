@@ -52,7 +52,11 @@ function App() {
     return (
       <div className="App">
         <Router>
-          <Navmobile />
+          <div className="container">
+            <div className="row">
+              <Navmobile />
+            </div>
+          </div>
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
