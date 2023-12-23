@@ -87,18 +87,7 @@ const Reacts = () => {
               еще мелочи <a href="https://github.com/pevec1">github</a>
               <br />
               <br />
-              Работы - магазины на php + js
-              <br />
-              <a href="https://greatwallzap.ru">greatwallzap.ru</a>
-              <br />
-              <a href="https://avto-sphere.ru">avto-sphere.ru</a>
-              <br />
-              <a href="http://good-cms.ru">good-cms.ru </a>
-              <br />
-              (good-cms.ru в разработке)
-              <br />
-              <br />
-              <br />
+              
               Иностранные языки
               <br />
               Английский: технический перевод;

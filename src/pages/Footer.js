@@ -9,35 +9,35 @@ const Footer = () => {
           <div className="buttons">
             <a
               className="btns btn-vk"
-              href="https://vk.com/pevec1"
+              href="https://vk.com/harenkon"
               target="_self"
             >
               {" "}
             </a>
             <a
               className="btns btn-fb"
-              href="https://vk.com/pevec1"
+              href="https://vk.com/harenkon"
               target="_self"
             >
               {" "}
             </a>
             <a
               className="btns btn-google"
-              href="https://vk.com/pevec1"
+              href="https://vk.com/harenkon"
               target="_self"
             >
               {" "}
             </a>
             <a
               className="btns btn-qr"
-              href="https://vk.com/pevec1"
+              href="https://vk.com/harenkon"
               target="_self"
             >
               {" "}
             </a>
             <a
               className="btns btn-more"
-              href="https://vk.com/pevec1"
+              href="https://vk.com/harenkon"
               target="_self"
             >
               {" "}
