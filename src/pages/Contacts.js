@@ -8,7 +8,7 @@ const Contacts = () => {
             <p>Отправьте письмо здесь и ждите ответа.</p>
             <div>
               <a
-                href="mailto:pevec1@yandex.ru?subject=вопрос"
+                href="mailto:a@harenkon.ru?subject=вопрос"
                 rel="nofollow"
                 className="btn-black"
               >

@@ -8,7 +8,7 @@ const Works = () => {
         <div className="container-slider">
           <div className="row justify-content-center">
             <div className="carousel-indicators">
-              ВСЕ МОИ РАБОТЫ
+              МОИ РАБОТЫ НА PHP И JS
               <div className="carousel-inner">
                 {projects.map((project, index) => {
                   return (
@@ -31,7 +31,7 @@ const Works = () => {
           <p>Отправьте письмо здесь и ждите ответа.</p>
           <div>
             <a
-              href="mailto:pevec1@yandex.ru?subject=вопрос"
+              href="mailto:a@harenkon.ru?subject=вопрос"
               rel="nofollow"
               className="btn-black"
             >
@@ -145,7 +145,7 @@ const Works = () => {
               <br />В AXA Code блоге я расскажу как я черпаю идеи из фильмов.
             </div>
             <br />
-            <a className="btn-disabled" href="creative.php">
+            <a className="btn-disabled" href="https://www.aharenkov.ru/my-creative">
               Смотреть идеи
             </a>
           </div>

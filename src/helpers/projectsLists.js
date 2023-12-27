@@ -19,13 +19,13 @@ import slide18 from "./../styles/images/slide18.png";
 
 const projects = [
   {
-    title: "Project AutoSphere",
+    title: "Проект Avto-Sphere",
     img: slide1,
     skills: "",
-    link: "https://www.auto-sphere.ru",
+    link: "https://www.avto-sphere.ru",
   },
   {
-    title: "Project GreatWallZap",
+    title: "Проект GreatWallZap",
     img: slide2,
     skills: "",
     link: "https://www.greatwallzap.ru",
@@ -73,19 +73,19 @@ const projects = [
     link: "",
   },
   {
-    title: "Magazin Good-cms",
+    title: "Магазин Good-cms",
     img: slide10,
     skills: "",
-    link: "https://www.good-cms.ru",
+    link: "",
   },
   {
     title: "Admin Goos-cms",
     img: slide11,
     skills: "",
-    link: "https://www.good-cms.ru/admin.php",
+    link: "",
   },
   {
-    title: "Variant Good-cms",
+    title: "Вариант 2 Good-cms",
     img: slide12,
     skills: "",
     link: "",
@@ -106,10 +106,10 @@ const projects = [
     title: "Wordpress",
     img: slide15,
     skills: "",
-    link: "https://www.axacode.ru",
+    link: "",
   },
   {
-    title: "Igra",
+    title: "Игра",
     img: slide16,
     skills: "",
     link: "https://pevec1.github.io/js1-diplom/",

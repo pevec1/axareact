@@ -42,7 +42,7 @@ export default function AccountMenu() {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
           >
-            <Avatar sx={{ width: 0, height:0 }}></Avatar>
+            <Avatar sx={{ width: 0, height: 0 }}></Avatar>
           </IconButton>
         </Tooltip>
       </Box>
@@ -83,7 +83,7 @@ export default function AccountMenu() {
       >
         <MenuItem onClick={handleClose}>
           <Avatar />
-          <Link href="#">Личный кабинет</Link>
+          <Link href="https://www.aharenkov.ru/auth">Личный кабинет</Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <ListItemIcon>
@@ -106,7 +106,7 @@ export default function AccountMenu() {
           <Link href="/works">Проекты</Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Link href="/news">Новости</Link>
+          <Link href="https://www.aharenkov.ru/my-creative">Идеи</Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <Link href="/contacts">Контакты</Link>

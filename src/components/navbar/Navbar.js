@@ -22,14 +22,14 @@ const Navbar = () => {
         <a href="/works">Проекты</a>
       </li>
       <li>
-        <a href="/news">Новости</a>
+        <a href="https://www.aharenkov.ru/my-creative">Идеи</a>
       </li>
       <li>
         <a href="/contacts">Контакты</a>
       </li>
       <li style={{ marginTop: 20 + "px" }}></li>
       <li>
-        <a href="#" className="btn lk">
+        <a href="https://www.aharenkov.ru/auth" className="btn lk">
           Личный кабинет
         </a>
         <a href="/" className="btn logout">

@@ -31,7 +31,7 @@ const Reacts = () => {
           <p>Отправьте письмо здесь и ждите ответа.</p>
           <div>
             <a
-              href="mailto:pevec1@yandex.ru?subject=вопрос"
+              href="mailto:a@harenkon.ru?subject=вопрос"
               rel="nofollow"
               className="btn-black"
             >
@@ -135,7 +135,7 @@ const Reacts = () => {
               <br />В AXA Code блоге я расскажу как я черпаю идеи из фильмов.
             </div>
             <br />
-            <a className="btn-disabled" href="creative.php">
+            <a className="btn-disabled" href="https://www.aharenkov.ru/my-creative">
               Смотреть идеи
             </a>
           </div>

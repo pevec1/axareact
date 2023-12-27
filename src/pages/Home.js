@@ -74,10 +74,6 @@ const Home = () => {
           <br />
           живу в Москве
           <br />
-          работаю php программистом
-          <br />
-          удаленно, частичная занятость
-          <br />
           <strong>программист на языке javascript</strong>
           <br />
           <strong>опытный программист на языке php</strong>
@@ -126,7 +122,7 @@ const Home = () => {
           <p>Отправьте письмо здесь и ждите ответа.</p>
           <div>
             <a
-              href="mailto:pevec1@yandex.ru?subject=вопрос"
+              href="mailto:a@harenkon.ru?subject=вопрос"
               rel="nofollow"
               className="btn-black"
             >
@@ -146,7 +142,7 @@ const Home = () => {
             <a className="btn" href="works.php">
               Портфолио
             </a>
-            <a className="btn-disabled" href="creative.php">
+            <a className="btn-disabled" href="https://www.aharenkov.ru/my-creative">
               Смотреть идеи
             </a>
           </div>

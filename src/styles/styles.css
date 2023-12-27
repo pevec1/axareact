@@ -565,18 +565,20 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
 }
-.btn-vk {
+.btn-whatsapp {
   position: absolute;
   left: 0px;
 }
-.btn-fb {
+
+.btn-telegram {
   position: absolute;
   left: 80px;
-}
-.btn-google {
+
+}.btn-vk {
   position: absolute;
   left: 160px;
 }
+
 .btn-qr {
   position: absolute;
   left: 220px;
@@ -585,15 +587,15 @@ footer {
   position: absolute;
   left: 400px;
 }
-.btn-vk::before {
+.btn-whatsapp::before {
   padding-right: 0px;
+  background-image: url(./img/icons/whatsapp.png);
+}
+.btn-telegram::before {
+  background-image: url(./img/icons/telegram.png);
+}
+.btn-vk::before {
   background-image: url(./img/icons/icon-vk.svg);
-}
-.btn-fb::before {
-  background-image: url(./img/icons/icon-fb.svg);
-}
-.btn-google::before {
-  background-image: url(./img/icons/icon-google.svg);
 }
 .btn-qr::before {
   margin: 0 0 0 20px;

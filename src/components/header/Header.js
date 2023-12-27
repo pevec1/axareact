@@ -51,7 +51,7 @@ const Header = () => {
                 </a>
                 <a
                   className="btn"
-                  href="mailto:pevec1@yandex.ru?subject=вопрос"
+                  href="mailto:a@harenkon.ru?subject=вопрос"
                 >
                   email
                 </a>

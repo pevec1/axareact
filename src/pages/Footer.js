@@ -2,11 +2,21 @@ const Footer = () => {
     return (
       <footer>
         <div id="head" className="container">
-            <br/>
+          <br />
           <h3>AXA React Code 2023</h3>
           <div>Контакты</div>
 
           <div className="buttons">
+            <a
+              className="btns btn-whatsapp"
+              target="_blank"
+              href="https://wa.me/+79652758777"
+            >
+              {" "}
+            </a>
+            <a className="btns btn-telegram" target="_blank" href="https://t.me/luksik1">
+              {" "}
+            </a>
             <a
               className="btns btn-vk"
               href="https://vk.com/harenkon"
