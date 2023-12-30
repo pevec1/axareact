@@ -24,7 +24,7 @@ const Footer = () => {
             >
               {" "}
             </a>
-            <a
+            {/* <a
               className="btns btn-fb"
               href="https://vk.com/harenkon"
               target="_self"
@@ -37,7 +37,7 @@ const Footer = () => {
               target="_self"
             >
               {" "}
-            </a>
+            </a> */}
             <a
               className="btns btn-qr"
               href="https://vk.com/harenkon"

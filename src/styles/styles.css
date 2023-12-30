@@ -622,6 +622,7 @@ footer {
   display: none;
 }
 
+
 @media (min-width: 1001px) and (max-width: 1200px) {
   .container,
   .container-offer {
@@ -1149,30 +1150,32 @@ padding: 0;     */
   }
 
  
-  .btn-vk {
-    position: absolute;
-    left: 0px;
-  }
-  .btn-fb {
-    position: absolute;
-    left: 80px;
-  }
-  .btn-google {
-    position: absolute;
-    left: 160px;
-  }
-  .btn-qr {
-    display: none;
-    position: absolute;
-    left: 220px;
-  }
-  .btn-more {
-    display: none;
-    position: absolute;
-    left: 400px;
-  }
+  .btn-whatsapp {
+  position: absolute;
+  left: 0px;
+}
+
+.btn-telegram {
+  position: absolute;
+  left: 80px;
+
+}.btn-vk {
+  position: absolute;
+  left: 160px;
+}
+.btn-qr {
+  display: none;
+  position: absolute;
+  left: 220px;
+}
+.btn-more {
+  display: none;
+  position: absolute;
+  left: 400px;
+}
+
   .btn-vk::before {
-    padding-right: 0px;
+    /* padding-right: 0px; */
     background-image: url(./img/icons/icon-vk.svg);
   }
   .btn-fb::before {
