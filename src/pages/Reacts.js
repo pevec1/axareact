@@ -1,3 +1,4 @@
+import ProjectTwo from "../components/project-two/ProjectTwo";
 import Project from "../components/project/Project";
 import { reacts } from "../helpers/reactsLists";
 
@@ -9,6 +10,9 @@ const Reacts = () => {
           <div className="row justify-content-center">
             <div className="carousel-indicators">
               ВСЕ МОИ РАБОТЫ ON REACT
+              <div className="carousel-inner">
+                    <ProjectTwo />
+              </div>
               <div className="carousel-inner">
                 {reacts.map((project, index) => {
                   return (
@@ -87,7 +91,6 @@ const Reacts = () => {
               еще мелочи <a href="https://github.com/pevec1">github</a>
               <br />
               <br />
-              
               Иностранные языки
               <br />
               Английский: технический перевод;
@@ -135,7 +138,10 @@ const Reacts = () => {
               <br />В AXA Code блоге я расскажу как я черпаю идеи из фильмов.
             </div>
             <br />
-            <a className="btn-disabled" href="https://www.aharenkov.ru/my-creative">
+            <a
+              className="btn-disabled"
+              href="https://www.aharenkov.ru/my-creative"
+            >
               Смотреть идеи
             </a>
           </div>
