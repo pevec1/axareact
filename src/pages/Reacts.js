@@ -10,10 +10,19 @@ const Reacts = () => {
           <div className="row justify-content-center">
             <div className="carousel-indicators">
               ВСЕ МОИ РАБОТЫ ON REACT
-              <div className="carousel-inner">
-                    <ProjectTwo />
+              <div className="wrapper">
+                {reacts.map((project, index) => {
+                  return (
+                    <ProjectTwo
+                      key={index}
+                      title={project.title}
+                      img={project.img}
+                      link={project.link}
+                    />
+                  );
+                })}
               </div>
-              <div className="carousel-inner">
+              {/* <div className="carousel-inner">
                 {reacts.map((project, index) => {
                   return (
                     <Project
@@ -24,7 +33,7 @@ const Reacts = () => {
                     />
                   );
                 })}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

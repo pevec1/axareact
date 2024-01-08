@@ -1,3 +1,4 @@
+import ProjectTwo from "../components/project-two/ProjectTwo";
 import Project from "../components/project/Project";
 import { projects } from "../helpers/projectsLists";
 
@@ -9,10 +10,10 @@ const Works = () => {
           <div className="row justify-content-center">
             <div className="carousel-indicators">
               МОИ РАБОТЫ НА PHP И JS
-              <div className="carousel-inner">
+              <div className="wrapper">
                 {projects.map((project, index) => {
                   return (
-                    <Project
+                    <ProjectTwo
                       key={index}
                       title={project.title}
                       img={project.img}

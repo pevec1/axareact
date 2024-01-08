@@ -31,25 +31,25 @@ const projects = [
     link: "https://www.greatwallzap.ru",
   },
   {
-    title: "Project My site",
+    title: "Проект Моего Сайта нулевых",
     img: slide3,
     skills: "",
     link: "https://www.aharenkov.ru",
   },
   {
-    title: "Idem v KINO / Diplom Netology",
+    title: "Идем в Кино / Диплом Нетологии",
     img: slide4,
     skills: "",
     link: "https://pevec1.github.io/js-cp-diploma-edited/index.html",
   },
   {
-    title: "Prosto Verstka",
+    title: "Просто Верстка",
     img: slide5,
     skills: "",
     link: "",
   },
   {
-    title: "Birge of Netcoins",
+    title: "Биржа / курсовая Нетологии",
     img: slide6,
     skills: "",
     link: "https://netcoin.axacode.ru",
@@ -97,7 +97,7 @@ const projects = [
     link: "",
   },
   {
-    title: "Project Dmitri Demidov",
+    title: "Проект Dmitri Demidov",
     img: slide14,
     skills: "",
     link: "",

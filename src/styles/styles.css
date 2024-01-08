@@ -626,7 +626,7 @@ footer {
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -640,7 +640,7 @@ body {
     min-height: 100vh;
     background: #f5f5f5;
 }
-
+ */
 .wrapper {
     position: relative;
     width: 100%;
@@ -653,9 +653,9 @@ body {
     flex-wrap: wrap;
 }
 
-.card {
+.card2 {
     position: relative;
-    width: 325px;
+    width: 490px;
     height: 450px;
     background: #000;
     border-radius: 18px;
@@ -683,7 +683,7 @@ body {
     transition: .3s;
 }
 
-.card:hover .poster::before {
+.card2:hover .poster::before {
     bottom: 0;
 }
 
@@ -697,7 +697,7 @@ body {
     transition: .3s;
 }
 
-.card:hover .poster img {
+.card2:hover .poster img {
     transform: scale(1.1);
 }
 
@@ -715,7 +715,7 @@ body {
     z-index: 2;
 }
 
-.card:hover .details {
+.card2:hover .details {
     bottom: 0;
 }
 
@@ -1378,4 +1378,25 @@ padding: 0;     */
   .container-info {
     display: none !important;
   }
+
+
+  .card2 {
+    position: relative;
+    width: 325px;
+    height: 450px;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.details h1 {
+    font-size: 1.0em;
+    margin-bottom: 5px;
+}
+
+.cast{
+    font-size: 0.6em !important;
+}
+
 }

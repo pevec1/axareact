@@ -1,3 +1,5 @@
+import { mains } from "../helpers/mainLists";
+import ProjectTwo from "../components/project-two/ProjectTwo";
 import slide1 from "./../styles/images/slide1.png";
 import slide2 from "./../styles/images/slide2.png";
 import slide3 from "./../styles/images/slide3.png";
@@ -79,6 +81,29 @@ const Home = () => {
           <strong>опытный программист на языке php</strong>
           <br />
           <br />
+          <section className="slider2">
+            <div className="container-slider">
+              <div className="row justify-content-center">
+                <div className="carousel-indicators">
+                  мои избранные работы
+                  <div className="wrapper">
+                    {mains.map((project, index) => {
+                      return (
+                        <ProjectTwo
+                          key={index}
+                          title={project.title}
+                          img={project.img}
+                          link={project.link}
+                        />
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br />
+          <br />
           мой стек технологий:
           <br />
           JavaScript, React (частично),node.js, redux, git, api,
@@ -142,7 +167,10 @@ const Home = () => {
             <a className="btn" href="works.php">
               Портфолио
             </a>
-            <a className="btn-disabled" href="https://www.aharenkov.ru/my-creative">
+            <a
+              className="btn-disabled"
+              href="https://www.aharenkov.ru/my-creative"
+            >
               Смотреть идеи
             </a>
           </div>
