@@ -93,6 +93,7 @@ const Home = () => {
                           key={index}
                           title={project.title}
                           img={project.img}
+                          skills={project.skills}
                           link={project.link}
                         />
                       );

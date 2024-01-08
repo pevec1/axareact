@@ -31,7 +31,7 @@ const ProjectTwo = ({title, img, skills, link}) => {
               <span className="tag"></span>
             </div> */}
           <p className="desc">
-            {skills == "" ? "здесь скоро будет описание сайта" : skills} 
+            {(skills=="") ? ("здесь скоро будет описание сайта") : (skills)} 
                       </p>
           <div className="cast">
             <a target="_blank" href={link} rel="noreferrer">
