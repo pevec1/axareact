@@ -1,6 +1,6 @@
 import "./../../styles/styles.css";
 
-const ProjectTwo = ({title, img, link}) => {
+const ProjectTwo = ({title, img, skills, link}) => {
     return (
       // <div className="carousel-item">
       //   <br/>
@@ -30,7 +30,9 @@ const ProjectTwo = ({title, img, link}) => {
               <span className="tag"></span>
               <span className="tag"></span>
             </div> */}
-          <p className="desc">здесь скоро будет описание сайта</p>
+          <p className="desc">
+            {skills == "" ? "здесь скоро будет описание сайта" : skills} 
+                      </p>
           <div className="cast">
             <a target="_blank" href={link} rel="noreferrer">
               {link}
