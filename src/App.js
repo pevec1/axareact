@@ -36,11 +36,11 @@ function App() {
               <Navbar />
             </div>
           </div>
-          <Header />
+          
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
-            <Route path="/reacts" element={<Reacts />} />
+            {/* <Route path="/reacts" element={<Reacts />} /> */}
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
@@ -48,7 +48,7 @@ function App() {
         <Footer />
       </div>
     );
-  } else if (width < breakpoint2 && width > breakpoint1) {
+  } else if (width < breakpoint2 && width > 0) {
     return (
       <div className="App">
         <Router>
@@ -57,11 +57,11 @@ function App() {
               <Navmobile />
             </div>
           </div>
-          <Header />
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<Aboutus />} />
-            <Route path="/reacts" element={<Reacts />} />
+            {/* <Route path="/reacts" element={<Reacts />} /> */}
             <Route path="/works" element={<Works />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>

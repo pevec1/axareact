@@ -180,9 +180,9 @@ export default function AccountMenu() {
              </ListItemIcon>
              <Link href="/aboutus">Обо мне</Link>
            </MenuItem>
-           <MenuItem onClick={handleClose}>
+           {/* <MenuItem onClick={handleClose}>
              <Link href="/reacts">Проекты React</Link>
-           </MenuItem>
+           </MenuItem> */}
            <MenuItem onClick={handleClose}>
              <Link href="/works">Проекты</Link>
            </MenuItem>

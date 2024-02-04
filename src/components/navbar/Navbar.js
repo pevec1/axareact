@@ -15,9 +15,9 @@ const Navbar = () => {
       <li>
         <a href="/aboutus">Обо мне</a>
       </li>
-      <li>
+      {/* <li>
         <a href="/reacts">Проекты React</a>
-      </li>
+      </li> */}
       <li>
         <a href="/works">Проекты</a>
       </li>

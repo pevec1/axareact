@@ -9,7 +9,7 @@ const Works = () => {
         <div className="container-slider">
           <div className="row justify-content-center">
             <div className="carousel-indicators">
-              МОИ РАБОТЫ НА PHP И JS
+              МОИ РАБОТЫ НА PHP И JS и REACT.JS
               <div className="wrapper">
                 {projects.map((project, index) => {
                   return (

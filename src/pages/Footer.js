@@ -40,14 +40,14 @@ const Footer = () => {
             </a> */}
             <a
               className="btns btn-qr"
-              href="https://vk.com/harenkon"
+              href="#"
               target="_self"
             >
               {" "}
             </a>
             <a
               className="btns btn-more"
-              href="https://vk.com/harenkon"
+              href="#"
               target="_self"
             >
               {" "}

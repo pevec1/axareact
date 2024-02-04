@@ -50,7 +50,7 @@ class Rotate extends React.Component {
           //   ctx.translate(141.5, 83);
           //   ctx.rotate(Math.PI / 2);
           //   ctx.translate(-141.5, -83);
-          //ctx.fill();
+          // ctx.fill();
         }
         /* Выполняемый код... */
       }, 500);
