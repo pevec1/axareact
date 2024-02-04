@@ -162,10 +162,10 @@ export default function AccountMenu() {
            transformOrigin={{ horizontal: "right", vertical: "top" }}
            anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
          >
-           <MenuItem onClick={handleClose}>
+           {/* <MenuItem onClick={handleClose}>
              <Avatar />
              <Link href="https://www.aharenkov.ru/auth">Личный кабинет</Link>
-           </MenuItem>
+           </MenuItem> */}
            {/* <MenuItem onClick={handleClose}>
              <ListItemIcon>
                <Logout fontSize="small" />
