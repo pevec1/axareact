@@ -17,6 +17,7 @@ import slide16 from "./../styles/images/slide16.png";
 import slide17 from "./../styles/images/slide17.png";
 import slide18 from "./../styles/images/slide18.png";
 import slide19 from "./../styles/images/slide19.png";
+import slide20 from "./../styles/images/slide20.png";
 
 const projects = [
   {
@@ -132,6 +133,12 @@ const projects = [
     img: slide19,
     skills: "",
     link: "https://zadachi.axacode.ru",
+  },
+  {
+    title: "To card, To list",
+    img: slide20,
+    skills: "проект на react.js",
+    link: "https://pevec1.github.io/layouts/",
   },
 ];
 
