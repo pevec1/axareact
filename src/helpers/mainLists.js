@@ -3,6 +3,7 @@ import slide2 from "./../styles/images/slide2.png";
 import slider001 from "./../styles/images/slider001.png";
 import slider002 from "./../styles/images/slider002.png";
 import slider003 from "./../styles/images/slider003.png";
+import slider004 from "./../styles/images/slider004.png";
 
 const mains = [
   {
@@ -34,6 +35,12 @@ const mains = [
     img: slider003,
     skills: "проект на react.js",
     link: "https://react.axacode.ru",
+  },
+  {
+    title: "To card, To list",
+    img: slider004,
+    skills: "проект на react.js",
+    link: "https://pevec1.github.io/layouts/",
   },
 ];
 
