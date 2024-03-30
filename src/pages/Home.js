@@ -102,7 +102,7 @@ const Home = () => {
             <br />
             JavaScript, React (частично),node.js, redux, git, api,
             <br />
-            php, C#, 1C 7.7, HTML, CSS, ООП, bootstrap,
+            php, mysql, C#, 1C 7.7, HTML, CSS, ООП, bootstrap,
             <br />
             linux, mvc, ajax, jquery
             <br />
