@@ -159,7 +159,7 @@ const Home = () => {
                 <p>В AXA Code блоге я расскажу как я черпаю идеи из фильмов.</p>
               </div>
               <br />
-              <a className="btn" href="works.php">
+              <a className="btn" href="/works">
                 Портфолио
               </a>
               <a

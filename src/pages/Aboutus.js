@@ -29,7 +29,7 @@ const Aboutus = () => {
             <br />
             <br />
             <br />
-            <a className="btn" href="works.php">
+            <a className="btn" href="/works">
               Портфолио
             </a>
           </div>
